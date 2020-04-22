@@ -1,0 +1,2270 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "servers": [
+	{
+      "id": "Develop15-1.15.2",
+      "name": "Develop15",
+      "description": "Entwicklungsmodpack in der 1.15.2",
+      "icon": "",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.1.47",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 183705,
+            "MD5": "24a6eb2fe1aca65d2f72c5daefa4f3fa",
+            "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/forge/1.15.2-31.1.47/forge-1.15.2-31.1.47.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.15.2-31.1.47",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10795,
+                "MD5": "29d660d245f3337872f8edbafc3f5032",
+                "url": "https://launcher.floot.host/repo/versions/1.15.2-forge-31.1.47/1.15.2-forge-31.1.47.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.1.47:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2185522,
+                "MD5": "3e74aa82fb96cc5d7c4c6eaa83f2f69f",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/forge/1.15.2-31.1.47/forge-1.15.2-31.1.47-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.1.47:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 3569612,
+                "MD5": "3e30378046bcf02af2c3eb228c0d6c24",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/forge/1.15.2-31.1.47/forge-1.15.2-31.1.47-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 8333902,
+                "MD5": "9ae10222f494ed1f09e2b5fc6d38c958",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 7197612,
+                "MD5": "93e99cf6eab4a25f5811f821a59646c9",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2-20200414.225201:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 10344805,
+                "MD5": "e697aafd25354f43a1f0e8c94348c273",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraft/client/1.15.2-20200414.225201/client-1.15.2-20200414.225201-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:7.2",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 114873,
+                "MD5": "26cf10dfd4729fd22fcae0694e041167",
+                "url": "https://launcher.floot.host/repo/lib/org/ow2/asm/asm/7.2/asm-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:7.2",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 70051,
+                "MD5": "321121317a6c6221cc26e8f9ee97022f",
+                "url": "https://launcher.floot.host/repo/lib/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:7.2",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 50283,
+                "MD5": "c7214695c379f25861500e576a1f8cea",
+                "url": "https://launcher.floot.host/repo/lib/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:5.0.0-milestone.4",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 115810,
+                "MD5": "342c36323f24ee768929476020f66fa9",
+                "url": "https://launcher.floot.host/repo/lib/cpw/mods/modlauncher/5.0.0/modlauncher-5.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.1.0",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 1759,
+                "MD5": "1adde27730734a786f461ed048d440a0",
+                "url": "https://launcher.floot.host/repo/lib/cpw/mods/grossjava9hacks/1.1.0/grossjava9hacks-1.1.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:2.0.4-shadowed",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 444913,
+                "MD5": "4f0ebcd18b29d6a46de3a18de129dc62",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/accesstransformers/2.0.4/accesstransformers-2.0.4-shadowed.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:2.0.0-milestone.1-service",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 39764,
+                "MD5": "1ad12cee30fbfa9e75d766ebf43fcc28",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/eventbus/2.0.0-milestone.1/eventbus-2.0.0-milestone.1-service.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:2.0.0-milestone.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 19454,
+                "MD5": "54c63f0fa7cfed6332264db3578ed976",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/forgespi/2.0.0/forgespi-2.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:2.0.0-milestone.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 21780,
+                "MD5": "57e839114a3b043dea0f37baf63a820d",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/coremods/2.0.0/coremods-2.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://launcher.floot.host/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.2",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
+                "url": "https://launcher.floot.host/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.2",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31152,
+                "MD5": "7b2339065e252b1c187d39351d84a09f",
+                "url": "https://launcher.floot.host/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://launcher.floot.host/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 55051,
+                "MD5": "89e95013b11f347e48c0525965600404",
+                "url": "https://launcher.floot.host/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.1",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 14941,
+                "MD5": "03ee150cc0123a522a70b5d5f1325232",
+                "url": "https://launcher.floot.host/repo/lib/net/jodah/typetools/0.6.1/typetools-0.6.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "https://launcher.floot.host/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "https://launcher.floot.host/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://launcher.floot.host/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://launcher.floot.host/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:aiimprovements:0.3.0@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 22121,
+            "MD5": "fb5e0fec348cec3ea07dacdff71b7d78",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/AI-Improvements-1.15.2-0.3.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ambientsounds:3.0.3@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 76502454,
+            "MD5": "e8cac27f4a5ef9c60983628ebc9eac34",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/AmbientSounds_v3.0.19_mc1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:apotheosis:3.0.7@jar",
+          "name": "Apotheosis",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 559541,
+            "MD5": "66de7202c801df97f4c98d7e57066dec",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Apotheosis-1.15.2-3.0.7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:appleskin:1.0.13@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 27324,
+            "MD5": "9caaf842ae2dcdea6af45bbb74bf5eb9",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/AppleSkin-mc1.15.2-forge-1.0.13.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:aquaculture:1.15.2-2.0.13@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 472031,
+            "MD5": "062fb83783ca7b8d0dc997a33480801f",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Aquaculture-1.15.2-2.0.13.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:attributefix:7.0.2@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7708,
+            "MD5": "4f8f344d1c08ab80c47721061ca4cc99",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/AttributeFix-1.15.2-7.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:autoreglib:1.5-40@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 58933,
+            "MD5": "06149a40dc0ced647dd41b11ab01b5cc",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/AutoRegLib-1.5-40.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:betterburning:1.3.4@jar",
+          "name": "BetterBurning",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6349,
+            "MD5": "4ab4d9aad48db5bff537af7de4c3ce93",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/BetterBurning-1.15.2-1.3.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:betterthanmending:1.4.0@jar",
+          "name": "BetterThanMending",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4992,
+            "MD5": "b62a2d5f8d65544618d52ff894efed73",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/BetterThanMending-1.4.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:biomesoplenty:1.15.2-10.0.0.354@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3223667,
+            "MD5": "69d8afe7e0c8c98f29d9869ec198666e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/BiomesOPlenty-1.15.2-10.0.0.355-universal.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:blur:1.1.0-1@jar",
+          "name": "Blur",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 366609,
+            "MD5": "d506346680509a991930e4e27e86f070",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Blur-1.1.0-1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bonsaitrees2:2.1.2.6@jar",
+          "name": "Bonsai Trees 2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 186909,
+            "MD5": "0f2870904797b4efe50b358448dc1782",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/BonsaiTrees-2.1.2.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bookshelf:5.4.14@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 155060,
+            "MD5": "15a786b426574071c6ae8163bee2fc11",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Bookshelf-1.15.2-5.4.14.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bountiful:1.15.2-3.1.0@jar",
+          "name": "Bountiful",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 377338,
+            "MD5": "754eb4b375fc7e1f0e722c7490819149",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Bountiful-1.15.2-3.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:charm:1.15.2-1.5.6@jar",
+          "name": "Charm",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3207969,
+            "MD5": "902000e77b0e1d6078870d4da42a77b7",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Charm-1.15.2-1.5.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cloth-config2:2.0@jar",
+          "name": "Cloth Config Forge v2 API",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 309189,
+            "MD5": "c0c2f4008c8b1fed2cde4899fc18decc",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ClothConfig2-2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:clumps:5.0.2@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 13582,
+            "MD5": "413de40aa718b29eab722b6c171896a3",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Clumps-5.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:controlling:6.1.4@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 39698,
+            "MD5": "a046c7cd0f14a66fabf65af05cf71449",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Controlling-6.1.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cookingforblockheads:8.0.1@jar",
+          "name": "Cooking for Blockheads",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 653247,
+            "MD5": "db8a47ea19b5e9b5818dcec381d4a2cd",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/CookingForBlockheads_1.15.2-8.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cosmeticarmorreworked:1.15.2-v2@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 76547,
+            "MD5": "8c4435b2f3b5e16da04793513030f7ee",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/CosmeticArmorReworked-1.15.2-v2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:craftingtweaks:11.0.0@jar",
+          "name": "Crafting Tweaks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 99750,
+            "MD5": "5cefd7242589ac7175b5a5c5a8f3d478",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/CraftingTweaks_1.15.1-11.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 186156,
+            "MD5": "8fb298740791c5411742bd760a3e2740",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/CreativeCore_v2.0.5_mc1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:defaultoptions:11.0.1@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 14518,
+            "MD5": "6e11a181f961d1a30db766aa2cc684fd",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/DefaultOptions_1.15.2-11.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:doubleslabs:2.2.5@jar",
+          "name": "Double Slabs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 36587,
+            "MD5": "44ba79decdaca3cfb6de59ccaba379db",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/DoubleSlabs-1.15-2.2.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:economyinc:1.6@jar",
+          "name": "Economy Inc.",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 483158,
+            "MD5": "b47702153b660587ef6147b600850ce9",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/EconomyInc-1.6.8MC1.15.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:enchdesc:2.0.8@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 26333,
+            "MD5": "11628b06142bd6684b3693d077358eba",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/EnchantmentDescriptions-1.15.2-2.0.8.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:equipmenttooltips:1.4.0+11@jar",
+          "name": "Equipment Tooltips",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 65302,
+            "MD5": "1e7d2d635993e914da9fcd7f52ee5738",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/EquipmentTooltips-1.15.2-1.4.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fastfurnace:3.0.0@jar",
+          "name": "FastFurnace",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 15647,
+            "MD5": "79f966f54b9f0d82525acc98d50bdbf0",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/FastFurnace-1.15.1-3.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fastleafdecay:v22@jar",
+          "name": "FastLeafDecay",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 8359,
+            "MD5": "87db1d586e81dd59fa6f35f975ea0244",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/FastLeafDecay-v22.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fastbench:3.0.0@jar",
+          "name": "FastWorkbench",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 28831,
+            "MD5": "a89ac0748892165cc29387b0334ce961",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/FastWorkbench-1.15.1-3.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fpsreducer:mc1.15.2-1.14.1@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 83022,
+            "MD5": "646e145d28ed8cc889cb8c1b6ebee3ec",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/FpsReducer-mc1.15.2-1.14.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fruittrees:1.2.5@jar",
+          "name": "Fruit Trees",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 406164,
+            "MD5": "62257dcce024f4aba236274aff39627d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/FruitTrees-1.15.2-1.2.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:gamestages:5.0.2@jar",
+          "name": "GameStages",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 37695,
+            "MD5": "ff204ca8bddcb2662cc33cd623063d9f",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/GameStages-1.15.2-5.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:hardcorerevival:4.0.0@jar",
+          "name": "Hardcore Revival",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 46606,
+            "MD5": "5f340d3da60da468d841d17a75679c37",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/HardcoreRevival_1.15.2-4.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:waila:${version}@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 174787,
+            "MD5": "637faaca8787a2de370be1b5dea4de54",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Hwyla-forge-1.10.8-B72_1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:itemphysic:1.6.0@jar",
+          "name": "ItemPhysic",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 41503,
+            "MD5": "4b1f64ee13174bf621e874afbabb32ee",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ItemPhysic_v1.4.0_mc1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:kiwi:2.7.1@jar",
+          "name": "Kiwi",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 239304,
+            "MD5": "4bb2830017634f4bce7ff6a44e2c88a5",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Kiwi-1.15.2-2.7.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:kleeslabs:8.0.0@jar",
+          "name": "KleeSlabs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 38372,
+            "MD5": "6b5d68bab670151517cd2cb55eab3b62",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/KleeSlabs_1.15.2-8.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:kottle:1.5.0@jar",
+          "name": "Kottle",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5831039,
+            "MD5": "566ecf952abbea91106c44246a0f5de9",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Kottle-1.5.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:lightoverlay-forge:4.4@jar",
+          "name": "Light Overlay Forge",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 471650,
+            "MD5": "a1846f2a94740d001558f7197a649ba6",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/LightOverlay-4.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:lollipop:1.0.14@jar",
+          "name": "Lollipop",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 463944,
+            "MD5": "d89e2316dcf90245c012500a86599155",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Lollipop-1.15.2-1.0.14.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:miscadditions:1.2.3@jar",
+          "name": "Misc Additions",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 640652,
+            "MD5": "274f27d1a582282f83bff327c9e723d0",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/MiscAdditions-1.2.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mixinbootstrap-1.0.2:0.0.0@jar",
+          "name": "MixinBootstrap-1.0.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1060409,
+            "MD5": "6ae95b09c8f52cfc8698f8659ea34ec9",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/MixinBootstrap-1.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:morpheus:${version}@jar",
+          "name": "Morpheus",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 24547,
+            "MD5": "a53355fa3978361d6438f85a983c2475",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Morpheus-1.15.2-4.2.50.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mousetweaks:2.13@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 57609,
+            "MD5": "1fa0b5d7e3195e8b5760bc1445a94248",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/MouseTweaks-2.13-mc1.15.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:naturescompass:1.15.2-1.8.5@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 196348,
+            "MD5": "97a1227575178418d3d54308ade81fa7",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/NaturesCompass-1.15.2-1.8.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:neat:1.6-20@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 19697,
+            "MD5": "ea421ccef4c37887e4c6c322827f9446",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Neat%201.6-20.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:netherportalfix:6.0.0@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 108551,
+            "MD5": "a1ef29df176492f68ebc35716bc21895",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/NetherPortalFix_1.15.2-6.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:optiforge:0.1.11@jar",
+          "name": "OptiForge",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 229004,
+            "MD5": "3a18f009897625551111fdb15d7d7f48",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/OptiForge-MC1.15.2-0.1.11.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:patchouli:1.15.2-1.2-30@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 526648,
+            "MD5": "c5329f7784d0cdf58e30bd86619d0c9d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Patchouli-1.15.2-1.2-31.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:placebo:3.0.2@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 95444,
+            "MD5": "b0945f3466e229197cfe9dec8356cde7",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Placebo-1.15.2-3.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:progressivebosses:2.1.5-mc1.15.2@jar",
+          "name": "Progressive Bosses",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 60043,
+            "MD5": "a2ed71345e776cb22cd91a8761978cf4",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ProgressiveBosses-2.1.5-mc1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_chat:1.15.2-1.1.1@jar",
+          "name": "Project Essentials Chat",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 146094,
+            "MD5": "c76e303416e50b0aa7155473c69d81e8",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Chat-1.15.2-1.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_cooldown:1.15.2-1.0.2@jar",
+          "name": "Project Essentials Cooldown",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 38332,
+            "MD5": "63e75a0373b5849c1e8076181f2469df",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Cooldown-1.15.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_core:1.15.2-1.1.0@jar",
+          "name": "Project Essentials Core",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3097710,
+            "MD5": "41bf9873f2353b8daa7e4a5d523ee45d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Core-MOD-1.15.2-1.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_home:1.15.2-1.1.0@jar",
+          "name": "Project Essentials Home",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 52097,
+            "MD5": "91656597ecc920e0897a8b8d7dad7e28",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Home-1.15.2-1.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_permissions:1.15.2-1.0.2@jar",
+          "name": "Project Essentials Permissions",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 69868,
+            "MD5": "fb97fe22b748f474e8e1fb5028a068c3",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Permissions-1.15.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_spawn:1.15.2-1.1.0@jar",
+          "name": "Project Essentials Spawn",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 40927,
+            "MD5": "675e659dca3cfb3c0556d7859c99058e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Spawn-1.15.2-1.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials_warps:1.15.2-1.0.1@jar",
+          "name": "Project Essentials Warps",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 54341,
+            "MD5": "cd00ae92898b7778cacc476db59eff7c",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials%20Warps-1.15.2-1.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:project_essentials:1.15.2-1.1.2@jar",
+          "name": "Project Essentials",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 540742,
+            "MD5": "0ad7345b63667f2e76519bc9430f6ca8",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Project%20Essentials-1.15.2-1.1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:quark:r2.1-231@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4838944,
+            "MD5": "efeda4c4b9084e44d0e7ea61965c0ca3",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Quark-r2.1-231.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:quarkoddities:1.15.2@jar",
+          "name": "Quark Oddities",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1852,
+            "MD5": "2b50248564c9a94ea9b56c97fd0e7563",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/QuarkOddities-1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:reauth:3.8.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 25794,
+            "MD5": "5acca2eb59a46ad219944b68e2590cf4",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ReAuth-1.14-3.8.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:realistictorches:1.15.2-3.0.0@jar",
+          "name": "Realistic Torches",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 55267,
+            "MD5": "a7ac61815e80991d60430a6cdd93eaaa",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/RealisticTorches-1.15.2-3.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:refinedrelocation:7.1.0@jar",
+          "name": "Refined Relocation",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 682634,
+            "MD5": "6ae132750f1fa6c4648bf8c3d9d4d1fd",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/RefinedRelocation_1.15.2-7.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:sereneseasons:1.15.2-3.0.0.69@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 130032,
+            "MD5": "9a26be65a013391aaa0dbb148f65be69",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/SereneSeasons-1.15.2-3.0.0.69-universal.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:servertabinfo:1.2.6@jar",
+          "name": "Server Tab Info",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 56441,
+            "MD5": "38c3e14894fec1e9a64094954c823f44",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ServerTabInfo-1.15.2-1.2.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:soundfilters:0.13_for_1.15.2@jar",
+          "name": "Sound Filters",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 42462,
+            "MD5": "dea2decd97c769d2b4ee792ea7612f3e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/SoundFilters-0.13_for_1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:storagedrawers:1.15.2-7.0.1@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 487627,
+            "MD5": "f2a07ebff34cb3ceed405acfe9593932",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/StorageDrawers-1.15.2-7.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:strange:1.15.2-1.0.0-beta.3@jar",
+          "name": "Strange",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 52417564,
+            "MD5": "8abf66510e1b60935a32c8c114b84e7b",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Strange-1.15.2-1.0.0-beta.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:terraforged:0.0.12@jar",
+          "name": "TerraForged",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 990507,
+            "MD5": "16e38215c2ad11ec3263395c6f3b1d4e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/TerraForged-1.15.2-0.0.12.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:endergetic:1.2.1@jar",
+          "name": "The Endergetic Expansion",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6322145,
+            "MD5": "758b7219b94630242de0cbfb06740c0d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/The-Endergetic-Expansion-1.15.2-v1.2.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:toastcontrol:3.0.1@jar",
+          "name": "Toast Control",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 22827,
+            "MD5": "c65ca31d0ea636c7021d278fbb508ddf",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ToastControl-1.15.2-3.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:toolbelt:1.14.1@jar",
+          "name": "Tool Belt",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 200858,
+            "MD5": "5cb5653933a044aa1d16cbdbbd4e1af1",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ToolBelt-1.15.2-1.14.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:trashslot:11.0.0@jar",
+          "name": "TrashSlot",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 60755,
+            "MD5": "6c76bca6e5c90c37bccdeae3859357de",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/TrashSlot_1.15.2-11.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:upgrade_aquatic:1.5.1@jar",
+          "name": "Upgrade Aquatic",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2406215,
+            "MD5": "b22993640acc8f65296aa64e6e03599d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Upgrade-Aquatic-1.15.2-v1.5.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:waystones:6.0.1@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 193632,
+            "MD5": "880c73d3aac3c5f4c12bf8ef838f60de",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Waystones_1.15.2-6.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:xaeroworldmap:1.5.7@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 254142,
+            "MD5": "de7e2218ec3f674927a1d05f61102dc9",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/XaerosWorldMap_1.5.7_Forge_1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:xaerominimap:20.7.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 515994,
+            "MD5": "4c1c4e0009037de7c9f51f64f98219fc",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/Xaeros_Minimap_20.7.1_Forge_1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:archers_paradox:0.4.0b@jar",
+          "name": "Archer's Paradox",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 189731,
+            "MD5": "6ac95a1ed925b9dd5b7c568109ae1817",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/archers_paradox-1.15.2-0.4.0b.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:atmospheric:1.2.1@jar",
+          "name": "Atmospheric",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 782945,
+            "MD5": "bbad90cfa6044335c514056fbdda508f",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/atmospheric-1.15.2-1.2.1.jar.disabled"
+          }
+        },
+        {
+          "id": "generated.forgemod:buzzierbees:1.4@jar",
+          "name": "Buzzier Bees",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 988930,
+            "MD5": "b8fe2d9fc372164686d3567dfccaf470",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/buzzierbees-1.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bwncr:1.15.1-3.6.13@jar",
+          "name": "Bad Wither No Cookie Reloaded",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 12947,
+            "MD5": "f8fd75369c6663e37ccea9331d97989e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/bwncr-1.15.1-3.6.13.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:caelus:FORGE-1.15.2-2.0-beta2@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 50181,
+            "MD5": "b836190af97d50f770819320c1e0e435",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/caelus-FORGE-1.15.2-2.0-beta2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cofh_core:0.4.0b@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 822898,
+            "MD5": "62809c5cb9f29384eb58d9b6e03a1562",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/cofh_core-1.15.2-0.4.0b.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:comforts:FORGE-1.15.2-2.0.0.1@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 236050,
+            "MD5": "7abe701ee7af8ec5b7e13ea4f65aae23",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/comforts-FORGE-1.15.2-2.0.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:corpse:1.15.2-1.0.3@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 71908,
+            "MD5": "121114d0073f817c38180f32e3d4719b",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/corpse-1.15.2-1.0.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curios:FORGE-1.15.2-2.0.2.2@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 183669,
+            "MD5": "832266f957588cc1558ba8fb9515b4bb",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/curios-FORGE-1.15.2-2.0.2.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curiouselytra:FORGE-1.15.2-2.0@jar",
+          "name": "Curious Elytra",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 26924,
+            "MD5": "4aa0ea199bb823e188e5c1fd87ed62f6",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/curiouselytra-FORGE-1.15.2-2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:decorative_blocks:1.6@jar",
+          "name": "Decorative Blocks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 464346,
+            "MD5": "125ffb9ed0c7364110d6ddde52543e73",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/decorative_blocks-6d.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:dynview:1.4@jar",
+          "name": "Dynamic view distance",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 10432,
+            "MD5": "89420b39509e761bd3c8e7a59625fdd5",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/dynviewdist-1.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:embellishcraft:1.15.2-2.1.1.0@jar",
+          "name": "EmbellishCraft",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4950448,
+            "MD5": "8e49e7e2857ae8f8f6acca090d2c169e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/embellishcraft-1.15.2-2.1.1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:engineersdecor:1.0.20-b5@jar",
+          "name": "Engineer's Decor",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1208108,
+            "MD5": "112faaac27b333a5d97177c3f328dde6",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/engineersdecor-1.15.2-1.0.20-b5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:engineerstools:1.0.7@jar",
+          "name": "Engineer's Tools",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 233432,
+            "MD5": "80096360cdcfebfdd5a2e8b031cb9da0",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/engineerstools-1.15.2-1.0.7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ensorcellation:0.4.0b@jar",
+          "name": "Ensorcellation",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 118441,
+            "MD5": "b9fceffc9292daa77211c59506b52b67",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ensorcellation-1.15.2-0.4.0b.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:essentials:1.15.2-2.7.0@jar",
+          "name": "Essentials",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 587304,
+            "MD5": "86e70ebb57b71bc753522856a836ad30",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/essentials-1.15.2-2.7.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:extlights:2.0@jar",
+          "name": "Extended Lights",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 432390,
+            "MD5": "4f06934e647a6dc1595dcdfa7601496d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/extlights-2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:fancymenu:1.0@jar",
+          "name": "§dFancy§5Menu",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 401896,
+            "MD5": "770eccc85330e4321eec21b1bb3ceba4",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/fancymenu_1.0.beta_MC_1.15-1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cfm:7.0.0-pre16@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1596169,
+            "MD5": "935be27b560afe528aa3f8a195bcfde4",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/furniture-7.0.0-pre16-1.15.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:glassential:1.1.1@jar",
+          "name": "Glassential",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 31806,
+            "MD5": "26de349a5ccffba9e015fce5c3c282e1",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/glassential-forge-1.15.2-1.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:globaldatapack:1.15.2-0.1.0@jar",
+          "name": "Dark Roleplay - Global Datapacks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4245,
+            "MD5": "760c2584795b2a7ddc28c14ee4341d51",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/globaldatapack-1.15.2-1.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:guardvillagers:1.0.6@jar",
+          "name": "Guard Villagers",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 70715,
+            "MD5": "38f0ed501ab3294a210accaefb96d061",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/guardvillagers-1.15.2-1.0.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:immersive_portals:0.16@jar",
+          "name": "Immersive Portals",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 844009,
+            "MD5": "e9f5e411a676e3365fa30d75b23b853c",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/immersive-portals-0.16.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ironchest:1.15.2-10.0.1@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 183819,
+            "MD5": "f9a193373345dd03a93248ac72fe3f12",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/ironchest-1.15.2-10.0.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:itlt:1.15.2-1.0.2@jar",
+          "name": "It's the little things",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 15073,
+            "MD5": "d4ae56287bff6322b6d645b8178a85e2",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/itlt-1.15.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:jei:6.0.0.3@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 700494,
+            "MD5": "660655ae1faa1c16a0a97a7eb9dbdf10",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/jei-1.15.2-6.0.0.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:libnonymous:1.1.1.5@jar",
+          "name": "Libnonymous",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2414041,
+            "MD5": "8e497b222fa25fe0b04418fe7c050b18",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/libnonymous-1.15.2-1.1.1.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:lithium:0.4.6-rc3@jar",
+          "name": "Lithium",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 257410,
+            "MD5": "90daeda553fed2d7d0fcfe002d183ffb",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/lithium-mc1.15.2-forge-0.4.6-rc3-mod.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mapperbase:1.15.2-1.0.0.1@jar",
+          "name": "Mapper Base",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 200353,
+            "MD5": "ce19724468e48026133ed247a425a6a5",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mapperbase-1.15.2-1.0.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcjtylib:1.15-4.0.3-alpha@jar",
+          "name": "McJtyLib",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 536415,
+            "MD5": "c80ea14a5b92ee81f19b85bd082704b2",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mcjtylib-1.15-4.0.3-alpha.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcwbridges:1.0.4@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 148043,
+            "MD5": "2e1ee48921d9731a95b4a20af464b19f",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mcw-bridges-1.0.4fix-mc1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcwfurnitures:1.0.1@jar",
+          "name": "Macaw's Furnitures",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 907329,
+            "MD5": "abe6f7c05202f770f1993c6562ee0548",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mcw-furniture-1.0.1-mc1.15.1%201.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcwroofs:1.0.2@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 487766,
+            "MD5": "cdc21f72a2ad554020013b8369986bfa",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcwwindows:1.0.1@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 325918,
+            "MD5": "36692e0c267aef5e3f8a096a89811584",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mcw-windows-1.0.1-mc1.15.2_1.15.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mgui:2.1.1@jar",
+          "name": "Mgui",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 52991,
+            "MD5": "8566a6ac027460a0adb499ac7a144c51",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mgui-1.15.2-2.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:minecolonies:0.11.863-ALPHA@jar",
+          "name": "Minecolonies",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 37384334,
+            "MD5": "68da0f4d83558fba1619cc3b31fb786c",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/minecolonies-0.11.863-ALPHA-universal.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:mining_helmet:1.0.8@jar",
+          "name": "Mining Helmet",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 34303,
+            "MD5": "1c5a7786598b957223a7c1e169f8746a",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/mining-helmet-1.15.2-1.0.8.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:pamhc2crops:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Crops",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 803467,
+            "MD5": "24981a7052fd81a9845af92ea385bd51",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/pamhc2crops-1.15.2-1.0.3.jar.disabled"
+          }
+        },
+        {
+          "id": "generated.forgemod:pamhc2foodcore:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Food Core",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 290948,
+            "MD5": "d2950002256a9c886ccc71620890d45c",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/pamhc2foodcore-1.15.2-1.0.3.jar.disabled"
+          }
+        },
+        {
+          "id": "generated.forgemod:pamhc2trees:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Fruit Trees",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 528934,
+            "MD5": "431404fceca902f20f9762890882c302",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/pamhc2trees-1.15.2-1.0.3.jar.disabled"
+          }
+        },
+        {
+          "id": "generated.forgemod:performant:2.07m@jar",
+          "name": "Performant",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 105217,
+            "MD5": "46337dffefd81a8389d6d48f127b55f3",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/performant-1.15-2.07m.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:phosphor:0.5.2+build.4@jar",
+          "name": "Phosphor",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 45363,
+            "MD5": "bc5d52e419292e8ad0d2741006f7d0f5",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/phosphor-forge-mc1.15.2-0.5.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:prefab:1.5.0.4@jar",
+          "name": "Prefab",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3646824,
+            "MD5": "0c074c658dcfc514df347b75d51ac046",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/prefab-1.5.0.4.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:randompatches:1.15.2-1.21.1.2@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 203658,
+            "MD5": "c6caab6159551c5b92c30a01b06593f2",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/randompatches-1.15.2-1.21.1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:reap:1.12.2@jar",
+          "name": "Reap Mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 14672,
+            "MD5": "eed0fd75e68710be8569c47d3804615c",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/reap-1.12.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:repurposed_structures:1.15.2-1.3.0@jar",
+          "name": "Repurposed Structures",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 390396,
+            "MD5": "4fc8e602ba13bcd500678c601e3baf2e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/repurposedstructures-1.15.2-1.3.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:roughmobsrevamped:${version}@jar",
+          "name": "Rough Mobs Revamped",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 341553,
+            "MD5": "317c4a13a7c870580c6e7271b312dd9d",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/roughmobsrevamped-1.15.2-4.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:rsgauges:1.2.3-b1@jar",
+          "name": "Gauges and Switches",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 862529,
+            "MD5": "2823b6cb056c2ebb968cec83ecfd7f1a",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/rsgauges-1.15.2-1.2.3-b1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:simplechunkloaders:0.0.0@jar",
+          "name": "Simple Chunk Loaders",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 28728,
+            "MD5": "b7d954962afaa354a3fa6fae93937a47",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/simplechunkloaders-1.15.2-1.0.2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:simplefarming:1.15.2-1.2.7@jar",
+          "name": "Simple Farming",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 679742,
+            "MD5": "5e489946e0493107a37318e4b1bc2e1f",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/simplefarming-1.15.2-1.2.7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:structurize:0.10.305-ALPHA@jar",
+          "name": "Structurize",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4985041,
+            "MD5": "c443e9e3825fc77c086f18e965d07942",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/structurize-0.10.305-ALPHA.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:swampexpansion:0.0.0@jar",
+          "name": "Swamp Expansion",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 292388,
+            "MD5": "b64988485b68d8a83b3034ec710955d1",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/swampexpansion-1.15.2-1.5.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:swingthroughgrass:1.15.2-1.4.0@jar",
+          "name": "SwingThroughGrass",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 22255,
+            "MD5": "0e7ba44ecd0fe1a995a593ff87b3dc23",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/swingthroughgrass-1.15.2-1.4.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:tetra:1.15.2-2.3.0@jar",
+          "name": "Tetra",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1468661,
+            "MD5": "c1bff9d88d9094ae2113c2f36e459b67",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/tetra-1.15.2-2.3.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:titanium:2.3.7@jar",
+          "name": "Titanium",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 502583,
+            "MD5": "65270a4cd4e1a9e9b5972b754d0999fe",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/titanium-1.15.2-2.3.7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:uteamcore:2.11.0.156@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 459780,
+            "MD5": "a76e9a113b2ca190c457bdfe103e2e61",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/u_team_core-1.15.2-2.11.0.156.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:usefulbackpacks:1.9.4.63@jar",
+          "name": "Useful Backpacks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 78631,
+            "MD5": "113655d9aeb8b1647eb9f7e25c8e0de2",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/useful_backpacks-1.15.2-1.9.4.63.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:valhelsia_structures:15.0.2a@jar",
+          "name": "Valhelsia Structures",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 555919,
+            "MD5": "7b4b6fab57db3266cec53cbe33142930",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/valhelsia_structures-15.0.2a.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:valkyrielib:1.15.2-3.0.2.1@jar",
+          "name": "ValkyrieLib",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 682559,
+            "MD5": "faca3f1097f868546e8f2cccd9dd159e",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/forgemods/valkyrielib-1.15.2-3.0.2.1.jar"
+          }
+        },
+        {
+          "id": "itlt-client.toml",
+          "name": "itlt-client.toml",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1241,
+            "MD5": "bb5e627dee4bed969bff7209128c5f17",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/files/config/itlt-client.toml",
+            "path": "config/itlt-client.toml"
+          }
+        },
+        {
+          "id": "OptiFine_1.15.2_HD_U_G1_pre13.jar",
+          "name": "OptiFine_1.15.2_HD_U_G1_pre13.jar",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5434242,
+            "MD5": "f6baf7e232a6f3d605db1632eae656b3",
+            "url": "https://launcher.floot.host/servers/Develop15-1.15.2/files/mods/OptiFine_1.15.2_HD_U_G1_pre13.jar",
+            "path": "mods/OptiFine_1.15.2_HD_U_G1_pre13.jar"
+          }
+        }
+      ]
+    }
+    ]
+}
