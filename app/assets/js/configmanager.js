@@ -56,11 +56,11 @@ exports.getAbsoluteMaxRAM = function(){
 
 function resolveMaxRAM(){
     const mem = os.totalmem()
-    return mem >= 8000000000 ? '6G' : (mem >= 6000000000 ? '4G' : '3G')
+    return mem >= 12000000000 ? 8 : (mem >= 8000000000 ? 6 : (mem >= 6000000000 ? 4 : 3))
 }
 
 function resolveMinRAM(){
-    return resolveMaxRAM()
+    return resolveMaxRAM() / 2
 }
 
 /**
@@ -72,8 +72,8 @@ function resolveMinRAM(){
 const DEFAULT_CONFIG = {
     settings: {
         java: {
-            minRAM: resolveMinRAM(),
-            maxRAM: resolveMaxRAM(), // Dynamic
+            minRAM: resolveMinRAM() + 'G',
+            maxRAM: resolveMaxRAM() + 'G', // Dynamic
             executable: null,
             jvmOptions: [
                 '-XX:+UseConcMarkSweepGC',
