@@ -1,14 +1,14 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "521296835185475594",
+        "smallImageText": "FlootLauncher",
+        "smallImageKey": "sealcircle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "rss": "https://launcher.floot.host/news.rss",
     "servers": [
 	{
       "id": "Develop15-1.15.2",

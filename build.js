@@ -38,7 +38,10 @@ builder.build({
             oneClick: false,
             perMachine: false,
             allowElevation: true,
-            allowToChangeInstallationDirectory: true
+            allowToChangeInstallationDirectory: true,
+            unicode: true,
+            createDesktopShortcut: true,
+            createStartMenuShortcut: true
         },
         mac: {
             target: 'dmg',
