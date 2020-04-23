@@ -51,7 +51,13 @@ const statuses = [
         status: 'grey',
         name: 'Mojang Accounts Website',
         essential: false
-    }
+    },
+    {
+        service: 'mojang.com',
+        status: 'grey',
+        name: 'Mojang Website',
+        essential: false
+    },
 ]
 
 // Functions
