@@ -37,11 +37,12 @@ builder.build({
         nsis: {
             oneClick: true,
             perMachine: false,
-            allowElevation: false,
+            allowElevation: true,
             allowToChangeInstallationDirectory: false,
-            unicode: true,
             createDesktopShortcut: true,
-            createStartMenuShortcut: true
+            createStartMenuShortcut: true,
+            runAfterFinish: true,
+            warningsAsErrors: true,
         },
         mac: {
             target: 'dmg',
