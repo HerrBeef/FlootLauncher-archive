@@ -32,7 +32,9 @@ builder.build({
                     target: 'nsis',
                     arch: 'x64'
                 }
-            ]
+            ],
+            requestedExecutionLevel: 'requireAdministrator',
+            signAndEditExecutable: true
         },
         nsis: {
             oneClick: true,
