@@ -27,24 +27,22 @@ builder.build({
             output: 'dist'
         },
         win: {
+            requestedExecutionLevel: 'requireAdministrator',
             target: [
                 {
                     target: 'nsis',
                     arch: 'x64'
                 }
-            ],
-            requestedExecutionLevel: 'requireAdministrator',
-            signAndEditExecutable: true
+            ]
         },
         nsis: {
+            include: 'build/install.nsh',
             oneClick: true,
-            perMachine: false,
             allowElevation: true,
             allowToChangeInstallationDirectory: false,
             createDesktopShortcut: true,
             createStartMenuShortcut: true,
-            runAfterFinish: true,
-            warningsAsErrors: true,
+            runAfterFinish: true
         },
         mac: {
             target: 'dmg',
