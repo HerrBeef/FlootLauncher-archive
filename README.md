@@ -1,6 +1,6 @@
 # FlootLauncher
 
-A new way to play BoehMod. Don't worry about installing Java, Forge, or our mods. We've got that handled for you.
+A new way to play. Don't worry about installing Java, Forge, or our mods. We've got that handled for you.
 
 ## Features
 
