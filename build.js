@@ -27,7 +27,6 @@ builder.build({
             output: 'dist'
         },
         win: {
-            requestedExecutionLevel: 'requireAdministrator',
             target: [
                 {
                     target: 'nsis',
